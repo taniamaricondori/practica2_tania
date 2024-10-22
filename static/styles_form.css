@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3); /* Fondo degradado */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar el formulario horizontalmente */
+    align-items: center; /* Centrar el formulario verticalmente */
+    height: 100vh; /* Altura completa de la pantalla */
+}
+
+.form-container {
+    text-align: center;
+}
+
+form {
+    background-color: white; /* Fondo blanco para el formulario */
+    padding: 30px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 350px; /* Ancho del formulario */
+    text-align: center; /* Centrar el contenido */
+}
+
+h2 {
+    color: #333; /* Color del título */
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #666; /* Color gris suave */
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Para ajustar el padding */
+    background-color: #f9f9f9; /* Fondo claro */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border-color: #4caf50; /* Color de borde al enfocar */
+    outline: none; /* Sin contorno */
+}
+
+button {
+    background-color: #4caf50; /* Color del botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Color del botón al pasar el ratón */
+}
+
+.checkbox-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.checkbox-group input {
+    margin-right: 5px; /* Espacio a la derecha de las casillas */
+}
+
+.forgot-password {
+    color: #d9534f; /* Rojo suave para el enlace */
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    resize: vertical; /* Permite ajustar la altura del textarea */
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px; /* Añade un poco de espacio debajo de cada radio */
+}
+
+.radio-group {
+    text-align: center; /* Alinea los radio buttons a la izquierda */
+    margin-bottom: 15px; /* Espacio entre los radio buttons y otros elementos */
+}
+
+.radio-group label {
+    display: block; /* Coloca cada radio button en una nueva línea */
+    margin-bottom: 5px; /* Espacio entre el label y el radio */
+}
+
+
+
